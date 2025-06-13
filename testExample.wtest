@@ -1,9 +1,16 @@
-import example.pepita
+import example.*
 
-describe "group of tests for pepita" {
+describe "test piolas"{
 
-  test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
-  }
+const pirata1 = new Pirata(nivelEbriedad = 3, dinero = 3)
 
+test "aaa"{
+
+
+    
+    pirata1.agregarItem("brujula")
+    pirata1.agregarItem("grogXD")
+    assert.that(pirata1.esUtilPara(busquedaDelTesoro))
+
+}
 }
